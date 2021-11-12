@@ -13,7 +13,7 @@ const ingredientsElements = ingredients.map(el => {
     let ingSettings = document.createElement('li');
     ingSettings.textContent = el;
     ingSettings.classList.add('.item');
-    return f;
+    return ingSettings;
 });
  
 ingEl.append(...ingredientsElements)
